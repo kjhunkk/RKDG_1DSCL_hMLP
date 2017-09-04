@@ -1,0 +1,32 @@
+!! Input conditions !!
+
+$$ PDE TYPE = advection
+
+$$ ADVECTION SPEED = 0.5
+
+$$ FLUX SCHEME = godunov
+
+$$ LIMITER = MLP-u2
+
+$$ INITIAL = sine
+
+$$ BOUNDARY = periodic
+
+$$ TIME INTEGRATION = RK3
+
+$$ AREA = 2.0
+
+$$ GRID SIZE = 0.1
+
+$$ TARGET TIME = 4.0
+
+$$ CFL = 0.9
+
+$$ POLYNOMIAL ORDER = 1
+
+!! Options !!
+$$ advection, burgers
+$$ godunov
+$$ none, MLP-u1, MLP-u2
+$$ square, halfdome, gauss, shock, expansion, sine, benchmark1, benchmark2, constant
+$$ periodic, constant
